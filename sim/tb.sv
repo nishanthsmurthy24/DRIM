@@ -1,4 +1,4 @@
-`include "structs.sv"
+// `include "structs.sv"
 module tb();
 
 logic   rst_n, clk;

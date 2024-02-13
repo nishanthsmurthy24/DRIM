@@ -1,5 +1,4 @@
--sv
-
+../rtl/structs.sv
 ../rtl/branch_resolver.sv
 ../rtl/btb.sv
 ../rtl/decoder.sv
@@ -48,7 +47,5 @@
 ../rtl/main_memory.sv
 ../rtl/onehot_detect.sv
 ../rtl/sram.sv
-../rtl/structs.sv
 ../rtl/vga_controller.sv
 ../rtl/wait_buffer.sv
-
