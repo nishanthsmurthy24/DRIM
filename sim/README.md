@@ -28,7 +28,6 @@ make
 ```
 - a utility named elf2hex ([link](https://github.com/sifive/elf2hex)) provided by sifive to convert the elf file to a supported memory file. Clone the repo and follow the instructions
 ```
-git clone git://github.com/sifive/elf2hex.git
 cd elf2hex
 autoreconf -i
 ./configure --target=riscv64-unknown-elf
