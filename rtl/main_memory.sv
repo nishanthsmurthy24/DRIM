@@ -201,10 +201,10 @@ module main_memory #(
     assign data_picked_icache = block_selected[starting_bit_ic +: ICACHE_BLOCK_DW];
     assign data_picked_dcache = block_selected[starting_bit_dc +: DCACHE_BLOCK_DW];
 
-    always_ff @(posedge clk) begin : RamManagement
-        if(delayed_valid & output_entry.write_dcache) begin
-            ram[line_selector][starting_bit_dc +: DCACHE_BLOCK_DW] <= output_entry.data;
-        end
-    end
+    // always_ff @(posedge clk) begin : RamManagement
+    //     if(delayed_valid & output_entry.write_dcache) begin
+    //         ram[line_selector][starting_bit_dc +: DCACHE_BLOCK_DW] <= output_entry.data;
+    //     end
+    // end
 
 endmodule
